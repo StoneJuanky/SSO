@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/rcs">
+        <file>Images/carpeta.png</file>
+    </qresource>
+</RCC>
