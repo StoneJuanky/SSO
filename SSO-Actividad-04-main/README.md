@@ -9,8 +9,8 @@ c. Operación (+, -, *, /, residuo, potencia) a realizar con sus operandos (vali
 4. Los procesos una vez en ejecución pueden ser Interrumpidos por Entrada/Salida o bien terminados por Error (Observar la diferencia en la tabla).
 5. La interrupción y la terminación de los trabajos en ejecución, se generaran por medio de teclas.
 6. Las teclas a utilizar son:
-   - E Interrupción por entrada-salida El proceso que está en uso del procesador (ejecución) debe salir de este e ir a la cola de los procesos del lote en ejecución (actual).
-   - W Error El proceso que se esté ejecutando en ese momento terminara por error, es decir saldrá del procesador y se mostrara en terminados, para este caso como el proceso no termino normalmente se desplegara error en lugar de un resultado.
+   - I Interrupción por entrada-salida El proceso que está en uso del procesador (ejecución) debe salir de este e ir a la cola de los procesos del lote en ejecución (actual).
+   - E Error El proceso que se esté ejecutando en ese momento terminara por error, es decir saldrá del procesador y se mostrara en terminados, para este caso como el proceso no termino normalmente se desplegara error en lugar de un resultado.
    - P Pausa Detiene la ejecución de su programa momentáneamente, la simulación se reanuda cuando se presione la tecla “C”.
    - C Continuar Al presionar esta tecla se reanudará el programa pausado previamente con “P”.
 7. Deberá mostrarse en pantalla:
